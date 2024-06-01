@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 41, 47);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 20px);
+    z-index: 1000;
+}
+
+.logo {
+    margin: 0;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(48, 41, 47);
+    text-decoration: none;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.about-content {
+    width: 50%;
+    margin-bottom: 150px;
+}
+
+.about-image {
+    width: 45%;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about h2 {
+    color: rgb(48, 41, 47);
+    font-style: italic;
+    font-size: 30px;
+}
+
+#about p {
+    color: rgb(63, 64, 69);
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.skills-content {
+    width: 50%;
+    padding-top: 130px;
+    margin-bottom: 150px;
+}
+
+.skills-image {
+    width: 45%;
+}
+
+.skills-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#skills h2 {
+    color: rgb(48, 41, 47);
+    font-style: italic;
+    font-size: 30px;
+}
+
+#skills p {
+    color: rgb(63, 64, 69);
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0;
+}
+
+#projects h2 {
+    padding-bottom: 25px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    font-size: 18px;
+}
+
+#contact {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#contact h2 {
+    padding-bottom: 25px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 41, 47);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
